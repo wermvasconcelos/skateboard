@@ -16,8 +16,16 @@
             </nav>
         </div>
 
-        <div class="border-2 flex-1 border-red-500">
-            Content
+        <div class="p-5 flex-1">
+            <header>
+                <InputSearch/>
+
+                <!-- <Dropdown>
+                    <Avatar/>
+                </Dropdown>
+
+                <Notifications/> -->
+            </header>
         </div>
     </div>
 </template>
@@ -26,4 +34,5 @@
     import MenuItem from './navs/MenuItem.vue';
     import TrendingUpIcon from '../components/icons/TrendingUpIcon.vue';
     import HomeIcon from '../components/icons/HomeIcon.vue';
+    import InputSearch from '../components/inputs/InputSearch.vue';
 </script>
