@@ -9,6 +9,6 @@
 
 <script lang="ts" setup>
     defineProps({
-        icon: { default: null }
+        icon: null
     })
 </script>
