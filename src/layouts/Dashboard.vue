@@ -2,16 +2,16 @@
     <div class="bg-gray-800 flex text-white max-h-screen h-screen">
         <!-- Side bar -->
         <div class="w-64">
-            <span class="font-semibold p-6 block opacity-90">skateboard</span>
+            <span class="font-semibold p-6 block opacity-90">CCN +++++++</span>
             <nav class="p-6">
                 <h3 class="opacity-50 uppercase font-semibold tracking-wiider mb-6">Menu</h3>
 
                 <div class="space-y-6">
-                    <MenuItem :icon="HomeIcon">Discover</MenuItem>
-                    <MenuItem :icon="TrendingUpIcon">Trending</MenuItem>
-                    <MenuItem :icon="TrendingUpIcon">Trending</MenuItem>
-                    <MenuItem :icon="TrendingUpIcon">Trending</MenuItem>
-                    <MenuItem :icon="TrendingUpIcon">Trending</MenuItem>
+                    <MenuItem :icon="HomeIcon">Página Inicial</MenuItem>
+                    <MenuItem :icon="TrendingUpIcon">Renovações</MenuItem>
+                    <MenuItem :icon="TrendingUpIcon">Emissões</MenuItem>
+                    <MenuItem :icon="TrendingUpIcon">Comissões</MenuItem>
+                    <MenuItem :icon="TrendingUpIcon">Vendas por mês</MenuItem>
                 </div>
 
             </nav>
@@ -32,38 +32,38 @@
                 </div>
             </header>
 
-            <h1 class="font-bold text-4xl mt-6 mb-4">Discover</h1>
+            <h1 class="font-bold text-4xl mt-6 mb-4">Descubra</h1>
             
             <div class="grid gap-4 grid-cols-12">
 
                 <div class="col-span-8 h-96 rounded-3xl borde overflow-hidden relative">
                     <div class="flex w-full h-full">
-                        <img src="https://via.placeholder.com/2000x1400" class="w-full object-cover">
+                        <img src="../assets/img/banda.jpg" class="w-full object-cover">
                     </div>
 
                     <div class="z-10 absolute top-0 p-6 w-full bottom-0">
-                        <h3 class="text-2xl max-w-xs">How to do Basic Jumping and how to landing safely</h3>
+                        <h3 class="text-2xl max-w-xs">A melhor banda de rock!</h3>
 
-                        <div class="absolute right-6 bottom-6 px-2 py-1 rounded-lg bg-gray-800 bg-opacity-50 text-white">7 minutes</div>
+                        <div class="absolute right-6 bottom-6 px-2 py-1 rounded-lg bg-gray-800 bg-opacity-50 text-white">🤘</div>
                     </div>
                 </div>
 
                 <div class="col-span-4 h-96 rounded-3xl borde overflow-hidden relative">
                     <div class="flex w-full h-full">
-                        <img src="https://via.placeholder.com/2000x1400" class="w-full object-cover">
+                        <img src="../assets/img/office_plaza.jpg" class="w-full object-cover">
                     </div>
 
                     <div class="z-10 absolute top-0 p-6 w-full bottom-0">
-                        <h3 class="text-2xl max-w-xs">How to do Basic Jumping and how to landing safely</h3>
+                        <h3 class="text-2xl max-w-xs">Protesto para aumento de salário!</h3>
 
-                        <div class="absolute right-6 bottom-6 px-2 py-1 rounded-lg bg-gray-800 bg-opacity-50 text-white">7 minutes</div>
+                        <div class="absolute right-6 bottom-6 px-2 py-1 rounded-lg bg-gray-800 bg-opacity-50 text-white">💸</div>
                     </div>
                 </div>
 
                 
             </div>
 
-            
+
 
         </div>
 
